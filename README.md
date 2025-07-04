@@ -56,7 +56,8 @@ Kakuma-Turkana, Kenya
 AI Software Engineering Scholar, Power Learn Project  
 
 ## 🚀 Submission Info
-
+Rork app preview link
+https://greenspark-ai-educational-interface.rork.app
 Built for Vibe Coding Hackathon 2.0  
 Theme: "From Idea to Income"  
 Submission Date: July 4, 2025
