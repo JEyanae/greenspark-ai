@@ -1,33 +1,66 @@
-# GreenSpark AI 🌍⚡  
-**AI-Powered Green Economy Learning Platform**  
-Built for Vibe Coding Hackathon 2.0 | June 30 – July 4, 2025
+# 🌿 GreenSpark AI – Vibe Coding Hackathon 2.0 Submission
 
-## 🚀 Overview  
-GreenSpark AI is a gamified climate education tool powered by AI. It delivers personalized, bite-sized lessons and interactive simulations to teach students and young people about climate action, renewable energy, and sustainability in a fun and impactful way.
+GreenSpark AI is a microlearning web app designed to teach youth and adults about sustainability and climate topics using AI-generated, bite-sized lessons.
 
-## 🧠 Key Features
-- AI-generated lessons with Claude.ai
-- User chooses age, language, and topic
-- Localized learning (Swahili, Sheng, English)
-- Quiz + simulation format
-- Mobile-first & low-data friendly
+## 🔧 Tech Stack
 
-## 💡 Problem  
-Climate literacy is missing in underserved regions like Kakuma. Youth need engaging, accessible tools to understand sustainability and take action.
+| Feature                  | Tool Used     |
+|--------------------------|---------------|
+| AI Lesson Generation     | Claude.ai     |
+| Frontend UI              | Rork.app      |
+| Backend (optional)       | Supabase      |
+| Logic / Workflows        | Rork Logic    |
+| UI Styling               | Rork / MGX    |
+| Hosting / Deployment     | Bolt.new (optional) |
+| Docs / Version Control   | GitHub        |
 
-## ✅ Solution  
-GreenSpark AI delivers microlearning using AI to adapt climate lessons to learners' context — age, language, and level — with fun facts, local stories, and quizzes.
+## ✨ Features
 
-## 🛠️ Tools Used
-- Claude.ai (lesson generation)
-- Rork.app (frontend UI)
-- Supabase (optional: backend tracking)
-- MGX (optional: UI polishing)
-- Bolt.new (deployment)
-- GitHub (submission)
+- 4 dropdown inputs: Topic, Age, Language, Style
+- Dynamic prompt generation for Claude.ai
+- Claude-generated lessons pasted back into the app
+- Simple, clean UI built entirely with no-code (Rork)
 
-## 👨🏾‍💻 Author  
-Long’oli Joseph Eyanae – Power Learn Project Scholar, Kakuma, Kenya
+## 🧠 How It Works
 
-## 📅 Submission for  
-🎧 Vibe Coding Hackathon 2.0
+1. User selects a climate topic, age group, language, and content style
+2. App generates a Claude-compatible prompt
+3. User copies the prompt to Claude.ai and pastes the AI lesson back into the app
+4. The lesson can be copied or reused by students, teachers, or changemakers
+
+## 🖼 Screenshots
+
+Screenshots are available in the `/screenshots` folder:
+
+- `1-ui-filled.png` – User inputs selected
+- `2-prompt-displayed.png` – Generated prompt
+- `3-lesson-pasted.png` – AI lesson displayed
+
+## 💡 Claude Prompt Template
+
+You are a friendly AI coach named GreenSpark.
+
+Topic: {{topic}}
+Age Group: {{age}}
+Language: {{language}}
+Style: {{style}}
+
+Write a 150-word microlesson on the topic above.
+✅ Include one fun fact
+❓ End with a multiple-choice quiz question (A, B, C)
+
+vbnet
+Copy
+Edit
+
+## 👨🏽‍💻 Author
+
+Long'oli Joseph Eyanae  
+Kakuma-Turkana, Kenya  
+AI Software Engineering Scholar, Power Learn Project  
+
+## 🚀 Submission Info
+
+Built for Vibe Coding Hackathon 2.0  
+Theme: "From Idea to Income"  
+Submission Date: July 4, 2025
