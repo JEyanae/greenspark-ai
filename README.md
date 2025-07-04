@@ -49,10 +49,6 @@ Write a 150-word microlesson on the topic above.
 ✅ Include one fun fact
 ❓ End with a multiple-choice quiz question (A, B, C)
 
-vbnet
-Copy
-Edit
-
 ## 👨🏽‍💻 Author
 
 Long'oli Joseph Eyanae  
